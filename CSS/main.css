@@ -1,0 +1,41 @@
+.container {
+    display:inline-block;
+    width: 1000px;
+    margin: 0 calc(50% - 500px) 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.logo {
+    float: left; 
+}
+.main-nav{
+    float:right;
+    margin-top: 2em;
+}
+
+.main-nav .link{
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 1em;
+    margin-left: 3em;
+}
+
+.main-nav .link:hover{
+    color:blueviolet;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.left-column{
+    width: 60%;
+    margin-top:100px; 
+    float:left;
+}
+
+.right-column{
+    width: 40%; 
+    height: 500px; 
+    object-fit: contain; 
+    float: left;
+}
