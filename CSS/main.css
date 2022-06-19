@@ -2,7 +2,7 @@
     display:inline-block;
     width: 1000px;
     margin: 0 calc(50% - 500px) 30px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:sans-serif;
 }
 
 .logo {
@@ -10,13 +10,11 @@
 }
 .main-nav{
     float:right;
-    margin-top: 2em;
 }
 
 .main-nav .link{
     font-size: 20px;
     text-decoration: none;
-    margin-top: 1em;
     margin-left: 3em;
 }
 
@@ -38,4 +36,23 @@
     height: 500px; 
     object-fit: contain; 
     float: left;
+}
+
+.main-title{
+    font-size: 50px;
+    margin: 0;
+    font-weight:50;
+}
+
+.title.main-title{
+    font-weight: 1000;
+}
+
+.description::before {
+    display: block;
+    content: '';
+    width: 120px;
+    height: 3px;
+    margin: 10px 0;
+    background-color: #B5DFEF;
 }
